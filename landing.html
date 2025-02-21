@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to Real-Time Chat</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background: linear-gradient(135deg, #00b4db, #0083b0); /* Fallback background */
+            background-image: url('C:\Users\athul\OneDrive\Desktop\Projects\Real-Time Chat websockets\static\image\chat-backgroung.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .welcome-container {
+            background-image: url('C:\Users\athul\OneDrive\Desktop\Projects\Real-Time Chat websockets\static\image\chat-backgroung.jpg');
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            max-width: 800px;
+            width: 90%;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .benefits {
+            text-align: left;
+            margin: 20px 0;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+        }
+
+        .benefits h2 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+
+        .benefits ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .benefits li {
+            padding: 10px 0;
+            color: #34495e;
+            position: relative;
+            padding-left: 25px;
+        }
+
+        .benefits li:before {
+            content: "•";
+            color: #3498db;
+            font-size: 20px;
+            position: absolute;
+            left: 0;
+        }
+
+        .start-button {
+            background-color: #3498db;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        .start-button:hover {
+            background-color: #2980b9;
+            transform: scale(1.05);
+        }
+
+        @media (max-width: 768px) {
+            .welcome-container {
+                width: 95%;
+                margin: 20px;
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="welcome-container">
+        <h1>Welcome to Our Real-Time Chat WebSocket</h1>
+        <div class="benefits">
+            <h2>Benefits of our chat system:</h2>
+            <ul>
+                <li>Instant Real-time Message Delivery</li>
+                <li>Secure and Private Communication</li>
+                <li>User-friendly Interface</li>
+                <li>No Page Refresh Required</li>
+                <li>Multiple User Support</li>
+                <li>Typing Indicators</li>
+                <li>Message Delivery Notifications</li>
+            </ul>
+        </div>
+        <a href="/chat" class="start-button">Start Chatting Now</a>
+    </div>
+</body>
+</html>
