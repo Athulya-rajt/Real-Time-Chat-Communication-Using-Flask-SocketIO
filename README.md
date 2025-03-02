@@ -12,6 +12,7 @@ Testing Methods: Manual Testing (Functional Testing, UI Testing, Smoke Testing)
 ✔ Input validation for secure communication
 
 🔍 Testing & Debugging
+
 This project was manually tested to ensure message delivery, UI consistency, and real-time updates. Smoke Testing and Functional Testing were performed to verify stability.
 Real-Time-Chat-Communication-Using-Flask-SocketIO
 This is a real-time chat website that enables instant message exchange using Flask-SocketIO and WebSockets, making conversations seamless and interactive.The platform features real-time communication, where messages appear instantly for all connected users. 
